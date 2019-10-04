@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <div>
+        <div>
+          <h1>
+            Women's World Cup Players
+          </h1>
+          <h2>
+            Ranked in Search Interest
+          </h2>
+          <h3>
+            June-July 2019, Worldwide
+          </h3>
+        </div>
+        <div
+          class="followers"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
