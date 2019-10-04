@@ -23,14 +23,14 @@ class Data extends React.Component {
                 this.setState({
                     players: res.data
                 });
-            })
+            }, [])
 
             .catch(error => console.log(error));
     }
 
     render() {
         return (
-            <div>
+            <div data-testid="divtag" className="fancy-div">
                 <div>
                     <Card 
                         things={this.state.players}
